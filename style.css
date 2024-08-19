@@ -1,0 +1,38 @@
+.slider{
+    background: url("image1.png");
+    width: 500px;
+    height:500px;
+    border: 2px solid grey;
+    
+}
+body{
+    background-color: darkkhaki;
+}
+h1{
+    text-align: center;
+}
+a{
+    background-color: white;
+    
+}
+.first{
+   display: flex;
+   justify-content: center;
+}
+.btn{
+    margin:auto;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border:solid 1px white;
+    box-shadow: 2px 2px 3px white;
+}
+.left{
+    float: inline-start;
+    /* margin-left: 100px; */
+}
+.right{
+    float: inline-end;
+}
